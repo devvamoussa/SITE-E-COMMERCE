@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation--top__items--btns .btn--blue{
+    border-radius: .5rem;
+    margin-left: 0,6rem;
+    width: 5rem;
+    height: 2rem;
+    border: 2px solid #1320DC;
+    font-size: .8rem;
+    background-color: #1320DC;
+    color: white;
+}
+
+.modal-content{
+    width: 22rem !important;
+    height: auto !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.overlay {
+    position: absolute;
+    display: none;
+    top: 10rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.show {
+    position: absolute;
+    display: initial;
+    transition: all 0.1s ease-in-out;
+    top: 0;
+    right: 0; 
+    bottom: 0;
+    left: 0;
+    background: rgba(34, 32, 32, 0.459);
+
+} 
+.body-modal{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* *********************************************************************************** */
+.en-tete{
+    display: flex ;
+    justify-content: space-between ;
+    margin: 1rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid rgb(155, 155, 155);
+}
+.btn--supprime{
+    border: none;
+    background-color: rgb(247, 247, 247);
+}
+
+.link-connection{
+    margin-left: 1rem;
+}
+.link-connection p{
+    font-size: .8rem;
+}
+.link-connection span{
+    color: rgb(247, 2, 43);
+    cursor: pointer;
+}
+
+.icone-connection{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem 0 1rem;
+    
+}
+.icone-white{
+    font-size: .8rem;
+    border-radius: .2rem;
+    background-color: white;
+    width: 9.3rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.icone-white:hover{
+    background-color: rgb(31, 15, 255);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.icone-blue{
+    font-size: .8rem;
+    border-radius: .2rem;
+    background-color: rgb(31, 15, 255);
+    border: 2px solid rgb(31, 15, 255);
+    cursor: pointer;
+    width: 9.3rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.icone-blue:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+.icone{
+    height: 3rem;
+    border-bottom: 1px solid rgb(155, 155, 155);
+}
+.icone-ou{
+    display: flex;
+    justify-content: center;
+}
+
+.input-content{
+    margin: 1rem;
+}
+.input-content input{
+    width: 20rem;
+    height: 2.5rem;
+    margin-bottom: .5rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(155, 155, 155);
+    font-size: .8rem;
+}
+
+.localisation--content select{
+    width: 20rem;
+    height: 2.5rem;
+    margin-bottom: .5rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(155, 155, 155);
+    font-size: .9rem;
+}
+.localisation--content-2 select{
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(155, 155, 155);
+    font-size: .9rem;
+}
+
+.btn-inscription{
+    margin: 1rem 0 2rem 0;
+}
+.btn-inscription button{
+    width: 20rem;
+    height: 2.5rem;
+    background: #1320DC;
+    border-radius: .5rem;
+    color: white;
+    border: 2px solid #1320DC;
+}
+.btn-inscription button:hover{
+    background: white;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}

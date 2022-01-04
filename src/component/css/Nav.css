@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.navigation--top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    
+}
+.navigation--top__items{
+    display: flex;
+    justify-content: space-between;
+}
+/* .navigation--top__items--btns .btn--white{
+    border-radius: .5rem;
+    margin-right: 5px;
+    width: 5rem;
+    height: 2rem;
+    font-size: .8rem;
+    border: 2px solid #1320DC;
+    border-radius: .5rem;
+    background-color: white;
+}
+
+.navigation--top__items--btns .btn--white:hover{
+    background-color: #1320DC;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation--top__items--btns .btn--blue{
+    border-radius: .5rem;
+    margin-left: 0,6rem;
+    width: 5rem;
+    height: 2rem;
+    border: 2px solid #1320DC;
+    font-size: .8rem;
+    background-color: #1320DC;
+    color: white;
+}
+
+.navigation--top__items--btns .btn--blue:hover{
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    color:#0f0f0f;
+    border: 2px solid #1320DC;
+} */
+
+.navigation--top__items--btns{
+    display: flex;
+    margin: 0 .5rem 0 0;
+}
+
+.navigation--top__logo span{
+    color: #1320DC;
+}
+
+.navigation--top__logo{
+    cursor: pointer;
+}
+
+.navigation--top__shop form input{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 10px;
+    font-size: .8rem;
+    border: none;
+    background-color: rgb(240, 239, 239);
+}
+
+#select--language{
+    border: none;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+/* *************************************nav_bottom******************************************* */
+
+.navigation--bottom{
+    margin-top: 1rem;
+
+}
+.navigation--bottom__list{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.navigation--bottom__list li{
+    padding: 0.5rem;
+    border: none;
+
+    
+}
+.navigation--bottom__list li a{
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+.navigation--bottom__list li a:hover{
+    color: #1320DC;
+    transition: all 0.3s ease-in-out;
+}
+
+
