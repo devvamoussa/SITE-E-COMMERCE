@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-card{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: rgb(24, 143, 255);
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+.info-home {
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.image-home img{
+    width: 45rem;
+    height: auto;
+    position: absolute;
+    right: -6rem;
+    top: 2.3rem;
+    
+}
+
+.detaile-home h3{
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+}
+.info-achat{
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+.btn-home button{
+    height: 2.3rem;
+    width: 10.5rem;
+    border-radius: .6rem;
+    background-color: rgb(252, 18, 18);
+    border: none;
+    font-size: .8rem;
+    color: white;
+    margin-top: 1rem;
+}
+.btn-home button:hover{
+    color: black;
+    background-color: white;
+    transition: all 0.3s ease-in-out; 
+}

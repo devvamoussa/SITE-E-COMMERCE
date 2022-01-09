@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.content-article{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    
+}
+.content-right{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    padding-top: 2rem;
+    background-color: rgb(212, 212, 212);
+}
+.btn-plus-article button{
+    width: 7rem;
+    height: 2.5rem;
+    border: 2px solid rgb(31, 15, 255);
+    border-radius: .5rem;
+    font-size: .9rem;
+    
+}
+.btn-plus-article button:hover{
+    background-color: rgb(31, 15, 255);
+    color: white;
+}
+.content-left{
+    background-color: white;
+    width: 25%;
+    height: 30rem;
+    color: rgb(31, 15, 255);
+    padding: 1rem;
+    box-shadow: 8px 5px 8px 4px rgba(0,0,0,0.20);
+}
+.info-top h5{
+    border-bottom: 1px solid rgb(116, 116, 116);
+    color: rgb(192, 192, 192);
+}

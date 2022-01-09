@@ -4,6 +4,9 @@ import { FaFacebookF } from 'react-icons/fa'
 import "../css/connexion.css"
 
 
+// <i><AiOutlineGooglePlus/></i>
+// <i><FaFacebookF/></i>
+
 const Connexion = ( { className }) => {
 
     const [toggle, setToggle] = useState(false);
@@ -39,12 +42,12 @@ const Connexion = ( { className }) => {
                                 <div className="icone-connection">
                                     <div className="icone">
                                         <div className="icone-white">
-                                            <span><i><AiOutlineGooglePlus/></i>Connexion avec google</span>
+                                            <span>Connexion avec google</span>
                                         </div>
                                     </div>
                                     <div className="icone">
                                         <div className="icone-blue">
-                                            <span><i><FaFacebookF/></i>connexion avec facebook</span>
+                                            <span>connexion avec facebook</span>
                                         </div>
                                     </div>
                                 </div>

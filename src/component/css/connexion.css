@@ -87,7 +87,7 @@
     cursor: pointer;
 }
 .icone-white:hover{
-    background-color: red;
+    background-color: rgb(31, 15, 255);
     color: white;
     transition: all 0.3s ease-in-out; 
 } 

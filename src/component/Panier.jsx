@@ -2,6 +2,7 @@ import React from 'react'
 import "./css/Panier.css"
 import jupe from "./img/jupe.png"
 import { useState } from 'react';
+import { MdShoppingBag } from 'react-icons/md'
 
 export default function Panier() {
     const [toggle, setToggle] = useState(false);
@@ -61,12 +62,15 @@ export default function Panier() {
                 </div>
             </div>
                 <div className={ toggle ? "container-none" :"panier-icone" }>
-                                
-                                <i type="button" 
-                                onClick={(e) => setToggle(!toggle)}
-                                >
-                                    kjsdkjxkh
-                                </i>
+                                <div className="shoping">
+                                    <i type="button" 
+                                    onClick={(e) => setToggle(!toggle)}
+                                    >
+                                        <div >
+                                            <i><MdShoppingBag className="shoping-icon" /></i>
+                                        </div>
+                                    </i>
+                                </div>
                         
                 </div>
         </>
